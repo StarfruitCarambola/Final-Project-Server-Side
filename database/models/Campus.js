@@ -13,6 +13,14 @@ const Campus = db.define("campus", {
     allowNull: false
   },
 
+  imageUrl: {
+    type: Sequelize.STRING,
+    allowNull: false,
+    validate: {
+      isUrl: true
+    }
+  },
+
   address: {
     type: Sequelize.STRING,
     allowNull: false
