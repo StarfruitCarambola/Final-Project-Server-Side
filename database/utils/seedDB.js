@@ -30,11 +30,17 @@ const seedDB = async () => {
 	const dummy_student = await Student.create({
 		firstname: "Joe",
       lastname: "Smith",
+	  email: "joesmith@cuny.hunter.edu",
+	  imageUrl: "https://thumbs.dreamstime.com/b/college-boy-holding-books-blurred-students-park-portrait-standing-35784618.jpg",
+	  gpa: 2.9
 	});
 	// Create a new student for a campus
 	const dummy_student2 = await Student.create({
 		firstname: "Mary",
       lastname: "Johnson",
+	  email: "maryjohnson@cuny.queens.edu",
+	  imageUrl: "https://media.istockphoto.com/photos/student-going-for-the-lecture-picture-id966521024?k=20&m=966521024&s=612x612&w=0&h=oEEwKKXL5QI44IfzssEekX26BaJORPOgLOf1wfQeo5w=",
+	  gpa: 3.9
 	});
 
 	// Add students to campuses
