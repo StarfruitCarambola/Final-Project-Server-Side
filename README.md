@@ -1,4 +1,10 @@
-# server-starter-code
+**Group Members and GitHub usernames:**
+- **Brian To:** bto2442
+- **Raymond Kwok:** raymondkwok7877
+- **Tim Zhen:** timzhen38
+- **Yi Ren Mai:** yiren987
+
+# Final Project Server Side
 
 This repository is the server (back-end) starter code for Final Project (CRUD Application).
 
