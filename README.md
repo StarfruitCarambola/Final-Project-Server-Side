@@ -1,12 +1,15 @@
-**Group Members and GitHub usernames:**
+# Final Project Server Side
+
+This repository is the server (back-end) starter code for Final Project (CRUD Application).
+
+# Final Project Client Side
+You can find the client side repository [here](https://github.com/bto2442/Final-Project-Client-Side)
+
+### Group Members and GitHub usernames:
 - **Brian To:** bto2442
 - **Raymond Kwok:** raymondkwok7877
 - **Tim Zhen:** timzhen38
 - **Yi Ren Mai:** yiren987
-
-# Final Project Server Side
-
-This repository is the server (back-end) starter code for Final Project (CRUD Application).
 
 ### Prerequisites
 - Install PostgreSQL (Postgres) [[link](https://www.postgresql.org/download/)] - required to run the database
