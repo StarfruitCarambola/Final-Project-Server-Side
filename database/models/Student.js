@@ -27,7 +27,7 @@ const Student = db.define("student", {
 
   imageUrl: {
     type: Sequelize.STRING,
-    defaultValue:"https://www.elegantthemes.com/blog/wp-content/uploads/2020/02/000-404.png",
+    defaultValue:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzOvaNmJGJ0BCxEpCqAVKnhVAE8T6IPNODaw&usqp=CAU",
     validate:{
       isUrl: true
     }
