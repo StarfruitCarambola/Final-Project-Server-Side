@@ -10,7 +10,7 @@ const seedDB = async () => {
 	// Create a new campus
 	const dummy_campus = await Campus.create({
 		name: "Hunter College",
-		imageUrl: "https://www.hunter.cuny.edu/admissions/repository/images/classic-hunter-nyc-cabs.jpg",
+		imageUrl: "https://s29068.pcdn.co/wp-content/uploads/68th-street-campus-768x432.jpg",
 		address: "695 Park Ave, New York, NY 10065",
 		description: "This is a school in New York, New York."
 	});
